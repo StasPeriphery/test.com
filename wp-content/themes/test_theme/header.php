@@ -17,6 +17,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org/",
+            "@type": "Organization",
+            "name": "test.com",
+            "url": "https://test.com/",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Some location",
+                "addressRegion": "Some adress",
+                "addressCountry": "US"
+            },
+            "logo": {
+                "@type": "ImageObject",
+                "contentUrl": "https://test.com/URL TO some.svg"
+            },
+            "contactPoint": {
+                "@type": "contactPoint",
+                "contactType": "Customer Service",
+                "telephone": "+4411332312",
+                "email": "office@test.com"
+            }
+        }
+    </script>
+
 	<?php wp_head(); ?>
 </head>
 
